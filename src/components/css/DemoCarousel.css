@@ -1,0 +1,27 @@
+.carousel-container-wrapper {
+    position: relative;
+    width: 90%;
+}
+
+.carousel-wrapper {
+    position: relative;
+}
+
+.custom-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: -50px;
+    bottom: 100px;
+    transform: rotate(180deg);
+}
+
+.next-button {
+    right: -50px;
+}

@@ -1,0 +1,16 @@
+.searchChallanForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Adjust spacing as needed */
+}
+
+input {
+    width: 80%;
+    /* Adjust width as needed */
+}
+
+button {
+    flex-shrink: 0;
+    /* Ensure button does not shrink */
+}

@@ -1,0 +1,37 @@
+.vouchercontainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voucher {
+    height: 100%;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.v {
+    width: 1500px;
+    margin-bottom: 20px;
+    display: flex;
+}

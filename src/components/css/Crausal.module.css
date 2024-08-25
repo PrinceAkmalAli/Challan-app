@@ -1,0 +1,29 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-zcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel__image {
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-dot-list-style {
+    bottom: 20px;
+}
+
+.carousel-item-padding-40-px {
+    padding: 0 20px;
+}

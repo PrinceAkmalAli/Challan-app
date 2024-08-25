@@ -1,0 +1,45 @@
+.ex_menu_slider {
+    background-color: #1C1816;
+    color: white;
+    border-radius: 150px 150px 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all ease 1s;
+    margin: 0 10px;
+    width: 220px;
+    position: relative;
+    height: 220px;
+}
+
+.ex_menu_slider img {
+    height: 120px;
+}
+
+.ex_menu_slider h5 {
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.redBar {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-bottom: 4px solid red;
+}
+
+.insideCircle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(1, 1, 1);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.ex_menu_slider:hover {
+    transform: translateY(-5px);
+}

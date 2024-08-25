@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.BestSellerCard {
+    width: 290px;
+    height: 370px;
+    background-color: #1C1816;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+
+.redRect {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.redRectangle {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+h4 {
+    align-self: flex-start;
+    font-size: 26px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    /* Example using Fira Sans Condensed */
+}
+
+.SellerName {
+    height: 70px;
+}
+
+.center,
+.center1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center1 {
+    justify-content: center;
+}
+
+.redBannerontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.redBanner {
+    position: relative;
+    display: inline-block;
+    background-color: red;
+    padding: 5px 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.redBanner::before,
+.redBanner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.redBanner::before {
+    left: -14px;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent red transparent transparent;
+}
+
+.image {
+    height: 230px;
+}
