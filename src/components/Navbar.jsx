@@ -30,7 +30,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className={style.button}>
-          <Button text={'LOGIN...'} />
+          <Button text={'L O G I N'} />
         </div>
       </div>
     </div>
